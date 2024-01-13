@@ -73,15 +73,6 @@ footer {
     width: 100%;
 }
 
-/* Responsive design */
-@media only screen and (max-width: 600px) {
-    main {
-        padding: 0 10px;
-    }
-}
-
-/* Add this to your existing styles.css */
-
 /* About Me Section Styling */
 .about-me {
     display: flex;
@@ -96,8 +87,6 @@ footer {
 .right-pane {
     flex-basis: 65%; /* Adjust the width of the right pane as needed */
 }
-
-/* Add this to your existing styles.css */
 
 /* Three Panes Styling */
 .three-panes {
@@ -173,7 +162,6 @@ footer {
     color: #666;
 }
 
-
 /* Form Styling */
 form {
     margin-top: 20px;
@@ -203,11 +191,6 @@ button:hover {
     background-color: #27ae60; /* Darker green on hover, customize as needed */
 }
 
-
-
-
-
-
 /* Responsive styles */
 
 @media only screen and (max-width: 600px) {
@@ -219,9 +202,12 @@ button:hover {
     nav ul li {
         margin: 10px 0;
     }
-}
 
-@media only screen and (max-width: 768px) {
+    header img {
+        max-width: 60%; /* Adjust as needed */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
     .about-me {
         flex-direction: column;
         text-align: center;
@@ -232,3 +218,6 @@ button:hover {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    /* Adjustments for other elements if needed */
+}
